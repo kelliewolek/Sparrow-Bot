@@ -19,7 +19,7 @@ const client = new Client({
 app.get("/debug/", (req, res) => {
   res.send({"debugToken": client.token})
 }) //debug things
-app.listen(3000,()=> {
+app.listen(3657,()=> {
   console.log("project is running!")
 })
 client.on("message",message => {
